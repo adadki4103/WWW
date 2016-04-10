@@ -1,0 +1,52 @@
+<!-- New Users -->
+<html><head><title>My Gecko Army</title>
+<link rel="icon" type="img" href="geckoIcon.png">
+<style>
+.body {
+    background-color: #000000;
+	background-image: url("gecko.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;}
+	
+/* unvisited link */
+a:link {color: #FFFF66;}
+/* visited link */
+a:visited {color: #FFFF66;}
+/* selected link */
+a:active {color: #FF9933;}
+/* mouse over link */
+a:hover {color: #FF99CC ;}
+
+.userFace {
+	float: center;
+	color:#FFFFFF;
+    width: 582px;
+    height: 320px;
+    background-color: #000000;
+    position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom:0px;
+    margin: auto;
+    border-radius: 25px;
+    border: 2px solid #FFFFFF;
+    padding: 20px;
+	text-align: left;}
+
+</style>
+
+<body class ="body">
+<div class="userFace">
+<p align=center><img src="newUserTag.png"></p>
+<form action="newUserAct.php" method="post">
+User Name:
+<input type="text" name="userName"><br><br>
+Password: 
+<input type="text" name="passWord"><br><br>
+Email: 
+<input type="text" name="userEmail"><br><br>
+<input type="submit" style="width:100px; height:40px" value="Submit" class="btn">
+
+</form>
+</div>
